@@ -16,13 +16,14 @@ console.log(citySubstring.substring(4, 8)); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
-const cityReplaced = '';
-console.log(cityReplaced); // Output:  "New Delhi"
+const cityReplaced = 'York';
+console.log(cityReplaced.replace('York', 'New Delhi')); // Output:  "New Delhi"
 
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = '';
+const city_name = 'City';
+const cityNameConcat = `${city} ${city_name}`;
 console.log(cityNameConcat); // Output: "New York City"
 
 // 5. Tutto in maiscolo
