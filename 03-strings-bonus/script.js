@@ -9,6 +9,10 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 const cityIndex = 'my City';
 console.log(cityIndex.indexOf("i")); // Output: 4
 
+// opzione 2
+// cityIndex = city.indexOf('Y');
+// console.log(cityIndex); // Output: 4
+
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
 const citySubstring = 'New York';
