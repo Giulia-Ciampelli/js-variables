@@ -23,6 +23,10 @@ console.log(citySubstring.substring(4, 8)); // Output: "York"
 const cityReplaced = 'York';
 console.log(cityReplaced.replace('York', 'New Delhi')); // Output:  "New Delhi"
 
+// opzione 2
+// cityReplaced = city.replace('York', 'Delhi');
+// console.log(cityReplaced); // Output:  "New Delhi"
+
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
